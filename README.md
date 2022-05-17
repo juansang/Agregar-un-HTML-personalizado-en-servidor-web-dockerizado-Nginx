@@ -56,7 +56,7 @@ COPY ./site-content/index.html /usr/share/nginx/html/index.html
 
 Con el primer comando, comenzamos a construir nuestra imagen personalizada usando una imagen base, hacemos esto usando el comando FROM. Esto extrae la última imagen de nginx a nuestra máquina local y luego construye nuestra imagen personalizada encima de ella.
 
-En el segundo, copiamos nuestro archivo index.html en el directorio /usr/share/nginx/html dentro del contenedor, sobrescribiendo el archivo index.html predeterminado proporcionado por nginx.
+En el segundo, copiamos nuestro archivo index.html en el directorio ``/usr/share/nginx/html`` dentro del contenedor, sobrescribiendo el archivo index.html predeterminado proporcionado por nginx.
 
 Para construir nuestra imagen, hay que ejecutar el siguiente comando :
 
