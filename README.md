@@ -9,6 +9,9 @@ Para poder desplegar nuestra página en el servidor Nginx, primero hay que insta
 
 <img width="446" alt="1" src="https://user-images.githubusercontent.com/91699247/168776669-a6b66d4c-1ad4-42f7-84d0-57b70c2b4c95.PNG">
 
+![1](https://user-images.githubusercontent.com/91699247/168838341-529c31e4-5837-4da4-a2cd-d9156b1671e4.png)
+
+
 
 Con este comando, lleva a cabo la ejecución del contenedor como un demonio y publica el puerto 8080 en la red del host.
 ```
@@ -16,6 +19,10 @@ docker run --rm -d -p 8080:80 --name web nginx
 ```
 
 Si accedemos a ``http://localhost:8080`` comprobamos que la ejecución y el resultado han sido satisfactorios, ya que podemos ver la página por defecto de Nginx.
+
+![Captura de pantalla de 2022-05-17 15-42-55](https://user-images.githubusercontent.com/91699247/168837910-ff263162-1fcc-45e5-a6e7-e3e70f1b998b.png)
+
+
 En los siguientes pasos, cambiaremos esta página por una personalizada, antes de pasar al siguiente paso, hay que parar el contenedor con un ``docker stop web``.
 
 
@@ -29,6 +36,8 @@ Crearemos una página html personalizada y luego la publicaremos usando la image
 
 Primero hay que crear un directorio llamado ``nginx`` dentro de ``Documentos`` y dentro de este otro, llamado ``site-content``. 
 Dentro de ``site-content`` agregamos el archivo ``index.html`` , que tiene el siguiente contenido : 
+
+![2](https://user-images.githubusercontent.com/91699247/168838427-e2555b23-4e8a-44ce-a330-0278aaae43a5.png)
 
 
 Con el siguiente comando, podemos crear un volumen y montará nuestro directorio local ``~/Documentos/nginx/site-content`` localmente en el contenedor en ejecución 
