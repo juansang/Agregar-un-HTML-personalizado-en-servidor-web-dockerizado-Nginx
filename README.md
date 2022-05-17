@@ -37,7 +37,8 @@ Crearemos una página html personalizada y luego la publicaremos usando la image
 Primero hay que crear un directorio llamado ``nginx`` dentro de ``Documentos`` y dentro de este otro, llamado ``site-content``. 
 Dentro de ``site-content`` agregamos el archivo ``index.html`` , que tiene el siguiente contenido : 
 
-![2](https://user-images.githubusercontent.com/91699247/168838427-e2555b23-4e8a-44ce-a330-0278aaae43a5.png)
+![2](https://user-images.githubusercontent.com/91699247/168839021-7dbd1177-faaf-46f2-8692-0e19b01907bc.png)
+
 
 
 Con el siguiente comando, podemos crear un volumen y montará nuestro directorio local ``~/Documentos/nginx/site-content`` localmente en el contenedor en ejecución 
