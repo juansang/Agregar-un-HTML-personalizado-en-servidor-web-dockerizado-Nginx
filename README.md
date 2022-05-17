@@ -6,6 +6,9 @@ El objetivo de esta práctica es desplegar un HTML sobre un servidor web dockeri
 
 Para poder desplegar nuestra página en el servidor Nginx, primero hay que instalarlo, esto se puede hacer mediante la ejecución de la imagen de Nginx 
 ``docker pull nginx`` que podemos encontrar en DockerHub, la cual descarga y la guarda en el caché de docker . 
+
+<img width="678" alt="2" src="https://user-images.githubusercontent.com/91699247/168780578-af987c30-30cc-464a-95c7-279d75c06935.PNG">
+
 <img width="446" alt="1" src="https://user-images.githubusercontent.com/91699247/168776669-a6b66d4c-1ad4-42f7-84d0-57b70c2b4c95.PNG">
 
 
