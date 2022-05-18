@@ -92,7 +92,7 @@ al copiar el archivo.
 docker run --rm -d -p 8080:80 --name web webserver
 ```
 
-Por último vemos nuestra página personalizada, que se ha conseguido desplegar correctamente sobre un servidor web dockerizado Nginx .
+Por último vemos nuestra página personalizada, que se ha desplegado correctamente sobre un servidor web dockerizado Nginx .
 
 <img width="483" alt="5" src="https://user-images.githubusercontent.com/91699247/169007399-52e13ee5-6e1d-411a-bd3f-78828cf754d3.png">
 
